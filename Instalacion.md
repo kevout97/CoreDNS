@@ -74,8 +74,8 @@ dig @localhost inicio.infra.ctin +short
 Cuya salida nos mostrará la dirección que hemos configurado con anterioridad, para nuestro caso `172.26.20.145`.
 
 **NOTA**:
-    * **-conf**: Esta bandera permite especificar la dirección del archivo de configuración principal, por convención, para *CoreDNS* este archivo se ubica en **/tmp** (dentro del contenedor) con el nombre de **Corefile**.
-    * **-dns.port** Esta bandera permite especificar el puerto por el que escuchará las peticiones el servidor DNS. En caso de no especificar dicho puerto, *CoreDNS* usa el ya conocido puerto **53**.
+* **-conf**: Esta bandera permite especificar la dirección del archivo de configuración principal, por convención, para *CoreDNS* este archivo se ubica en **/tmp** (dentro del contenedor) con el nombre de **Corefile**.
+* **-dns.port** Esta bandera permite especificar el puerto por el que escuchará las peticiones el servidor DNS. En caso de no especificar dicho puerto, *CoreDNS* usa el ya conocido puerto **53**.
 
 ## Issues.
 
