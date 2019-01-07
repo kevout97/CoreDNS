@@ -42,8 +42,8 @@ infra.ctin.com {
 }
 ```
 
-En este ejemplo configuramos la zona **example.com** la cual vincula el archivo **/tmp/example.com** (path dentro del contenedor) el cual integra todos los registros correspondientes a esa zona.
-A continuación se muestra el contenido de dicho archivo, ubicado en **/var/containers/coredns/tmp/example.com** (del lado del host):
+En este ejemplo configuramos la zona **infra.ctin.com** la cual vincula el archivo **/tmp/infra.ctin.com** (path dentro del contenedor) el cual integra todos los registros correspondientes a esa zona.
+A continuación se muestra el contenido de dicho archivo, ubicado en **/var/containers/coredns/tmp/infra.ctin.com** (del lado del host):
 
 ```conf
 $TTL    86400
