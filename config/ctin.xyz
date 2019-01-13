@@ -1,0 +1,14 @@
+$TTL    86400
+@       IN      SOA     ctin.xyz.  . (
+                1267456417      ; Serial
+                10800   ; Refresh
+                3600    ; Retry
+                3600    ; Expire
+                3600)   ; Minimum
+    IN          NS  ns0
+    IN          A   201.161.89.62 ; Ip publica del servidor
+
+
+ns0           IN A        201.161.89.62 ; Ip publica del servidor
+index         IN A        172.26.127.207 ; Ip privada
+jablab        IN A        201.161.97.8 ; Ip de Jablab

@@ -1,0 +1,9 @@
+ctin.xyz {
+    file /tmp/ctin.xyz
+    errors
+    log
+}
+
+. {
+    reload
+}
